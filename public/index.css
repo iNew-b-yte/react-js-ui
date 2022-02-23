@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*APP COMPONENT*/
+
+.App {
+  height: 100vh;
+  width: 100%;
+  background-color: #3772ff;
+  padding-top: 3%;
+  box-sizing: border-box;
+}
+
+.top-text{
+  position: absolute;
+  top: 8px;
+  left:450px;
+  color:#ffffff;
+  font-weight: 700;
+  font-size: 15px;
+  
+  
+}
+
+.body {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-color: #000000;
+}
+
+/* LEFT PANEL COMPONENT */
+
+.leftPanel {
+  position: relative;
+  height: 99.1vh;
+  width: 20%;
+  border-right: 2px solid #242731;
+  background-color: #000000;
+}
+/* Left Panel Component --- name*/
+.name {
+  font-size: 14px;
+  color: #ffffff;
+}
+.name h5 {
+  display: inline-block;
+  background-color: #3772ff;
+  border-radius: 20px;
+  padding: 5px 8px;
+  width: 25px;
+  font-size: 12px;
+  color: #ffffff;
+  margin: 5% 0 5% 5%;
+}
+
+.name span {
+  margin-left: 130px;
+}
+
+/* Button component */
+
+.button {
+  background-color: #000000;
+  color: #808191;
+  font-size: 10px;
+  font-weight: 630;
+  text-align: left;
+  border-radius: 7px;
+  margin-left: 5%;
+}
+
+.button:hover {
+  background: #353945;
+  mix-blend-mode: normal;
+  border-radius: 7px;
+  color: #ffffff;
+}
+
+.dolButton {
+  background-color: #353945;
+  border-radius: 10px;
+  padding: 2px 5px;
+  width: 95px;
+  /* height: 40px; */
+  margin: 0 10px 0 20px;
+}
+
+.flexed {
+  margin-top: 30%;
+}
+
+.nameBottom,
+.nameBottom h5 {
+  font-size: 12px;
+}
+
+.buyButton {
+  background-color: #a3e3ff;
+  padding: 4% 3%;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.flexed-1 {
+  position: absolute;
+  left: 7%;
+  bottom: 7%;
+}
+
+.star {
+  position: relative;
+  background-color: #353945;
+  border-radius: 12px;
+  padding: 1% 5%;
+  width:60px;
+  margin-left: 10%;
+}
+.star span{
+  position: absolute;
+  right: 5px;
+  top:4px;
+  display: inline-block;
+  background-color: #3772ff;
+  border-radius: 20px;
+  padding: 5px 8px;
+  height: 15px;
+  width: 15px;
+}
+
+.moon{
+  position: absolute;
+  top:3.5px;
+  left:5px;
+}
+
+
+/* MIDDLE PANEL COMPONENT */
+
+.middlePanel {
+  position: relative;
+  top: -87%;
+  right: 2.5%;
+  height: 60%;
+  width: calc(100% - 50%);
+  padding: 0;
+ 
+}
+.middle-panel-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.topColumn {
+  position: relative;
+  background-color: #abe8ff;
+  border-radius: 10px;
+}
+
+.data-coin-img {
+  position: absolute;
+  right: 15px;
+  bottom: -10px;
+}
+
+.topColumn p {
+  color: #2b2557;
+  font-weight: 500;
+  font-size: 14px;
+  margin: 10px 0 5px 20px;
+}
+
+.cut {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+}
+
+.tutorial-btn {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 2px 15px;
+}
+
+.midColumn {
+  position: relative;
+  background-color: #191b20;
+  border-radius: 24px;
+  margin-top: 20px;
+  height: 150px;
+}
+
+.heading {
+  position: absolute;
+  left: 20px;
+  top: 25px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.midColumn .reward {
+  position: absolute;
+  left: 20px;
+  top: 53px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 48px;
+  letter-spacing: -1px;
+  color: #ffffff;
+}
+
+.midColumn .linkButton {
+  position: absolute;
+  top: 35px;
+  right: 40px;
+}
+
+.midColumn .button-flex {
+  position: absolute;
+  width: 200px;
+  bottom: 20px;
+  left: 10px;
+}
+
+.midColumn .star {
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 1% 2%;
+  margin-left: 7px;
+}
+
+.side-by-side-column-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.side-by-side-column {
+  position: relative;
+  background-color: #191b20;
+  height: 140px;
+  width: 310px;
+  border-radius: 16px;
+}
+
+.side-by-side-column .input {
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+  width: 267px;
+  color: #ffffff;
+  font-weight: 700;
+  background-color: #242731;
+}
+
+.side-by-side-column .input-text {
+  position: absolute;
+  left: 20px;
+  bottom: 55px;
+  color: #808191;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.side-by-side-column .heading {
+  position: relative;
+  left: 50px;
+  top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.bag-img {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+
+/* Table Component */
+
+.thead {
+    color:#808191;
+    letter-spacing: 1px;
+    font-size: 10px;
+    text-align: center;
+   
+}
+
+.tdata{
+  font-size: 10px;
+  color:#ffffff;
+  text-align: center;
+  
+}
+.chain-name{
+  color:#ffffff;
+  font-size: 8px;
+
+}
+
+.secondary-text{
+  color:#808191;
+  font-size: 9px;
+ 
+ 
+}
+
+/* RIGHT PANEL COMPONENT */
+
+.rightPanel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 99.1vh;
+  width: 25%;
+  border-left: 2px solid #242731;
+  background-color: #000000;
+  padding: 1% 2%;
+}
+
+.button-flex {
+  display: flex;
+}
+
+.drop {
+  background: #353945;
+}
+.drop,
+.drop1 {
+  padding: 5px 30px;
+  border-radius: 10px;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.input {
+  background-color: #191b20;
+  font-size: 12px;
+  mix-blend-mode: normal;
+  border-radius: 12px;
+  color: #808191;
+  padding: 5% 5%;
+  border: 0;
+}
+
+.custom-link-p {
+  font-size: 14px;
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+.linkButton,
+.cancelButton {
+  padding: 5px 20px;
+  border-radius: 10px;
+  font-size: 12px;
+  margin: 25px 10px 0 20px;
+}
